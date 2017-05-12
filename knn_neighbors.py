@@ -103,6 +103,8 @@ def main():
 	index = k.predict_proba([[air_q, tem, dust]])
 	maxi = 0
 	num = 0
+
+	#find the class that has the maximum percentage
 	for i in range (len(index[0])):
 		if index[0][i]>maxi:
 			maxi = index[0][i]

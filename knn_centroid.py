@@ -117,4 +117,9 @@ def main():
 if(len(sys.argv)!=4):
 	print('need 3 argument : air_q, tem, dust')
 	sys.exit(0)
+
+time1 = time.time()
 main()
+time2 = time.time()
+span = time2-time1
+print('Total time spent for analyzing : '+str(span)+' seconds')
