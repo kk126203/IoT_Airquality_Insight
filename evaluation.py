@@ -111,16 +111,16 @@ def main():
 			maxi = index[0][i]
 			num = i
 	if(num==0):
-		print('The location is dorm_inddor and confidence is :')
+		print(' It is in reading room and confidence is :')
 		print(maxi)
 	elif num==1:
-		print('The location is dorm_outside and confidence is :')
+		print(' Its at outdoors and confidence is :')
 		print(maxi)
 	elif num==2:
-		print('The location is bathroom and confidence is :')
+		print(' Its in restroom and confidence is :')
 		print(maxi)
 	elif num==3:
-		print('The location is kitchen and confidence is :')
+		print(' It is in kitchen and confidence is :')
 		print(maxi)
 	else:
 		print('Unrecognizable')
