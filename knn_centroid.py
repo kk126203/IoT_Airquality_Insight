@@ -101,13 +101,13 @@ def main():
 	dust = int(sys.argv[3])
 	
 	index = clf.predict([[air_q, tem, dust]])
-	if(index==1):
-		print('dorm_inddor')
+	if(index==0):
+		print('inddor reading room')
+	elif index==1:
+		print('outdoors')
 	elif index==2:
-		print('dorm_outside')
-	elif index==3:
 		print('bathroom')
-	elif index==4:
+	elif index==3:
 		print('kitchen')
 	else:
 		print('Unrecognizable')
