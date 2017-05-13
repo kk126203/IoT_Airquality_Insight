@@ -115,7 +115,7 @@ Air quality sensor : A1
 Temperature sensor : A0
 Dust sensor: D8
 
-Then run "collection.py" on your Edison terminal with one input argument indicating where you are (Note: It took dust sensor 30 seconds to finish its job, so you have to wait for a while for the output):
+Then run "collect_current.py" on your Edison terminal with one input argument indicating where you are (Note: It took dust sensor 30 seconds to finish its job, so you have to wait for a while for the output):
 
 "python collect_current.py indoor_reading_room"
 
