@@ -94,6 +94,7 @@ def train():
 
 
 def main():
+	a = 0
 	train()
 	air_q = int(sys.argv[1])
 	tem = int(sys.argv[2])
