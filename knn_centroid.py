@@ -93,6 +93,7 @@ def train():
 
 
 def main():
+	a = 0
 	train()
 	clf = NearestCentroid()
 	clf.fit(training_set, target)
